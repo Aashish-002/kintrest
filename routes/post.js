@@ -1,11 +1,11 @@
 var express = require('express');
 var router = express.Router();
 const mongoose = require('mongoose');
-const plm = require('passport-local-mongoose')
+const plm = require('passport-local-mongoose');
+require('dotenv').config()
 
-uri='mongodb+srv://sam:sam@cluster0.4ml1awv.mongodb.net/'
 
-mongoose.connect(uri);
+mongoose.connect(process.env.uri);
 
 var postSchema = mongoose.Schema({
     postText: {
