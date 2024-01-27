@@ -1,59 +1,52 @@
-Kintrest Web App 📌✨
-Overview
+# Kintrest Web App 📌✨
+
 This project is a web application inspired by Kintrest, allowing users to discover, save, and share images on personalized boards. It is built using Node.js and the EJS engine. The goal is to provide a visually appealing and user-friendly platform for users to curate and explore images based on their interests.
+## Features
+-User Authentication: Users can create accounts, log in, and personalize their experience by creating and managing boards.
 
-Features
-User Authentication: Users can create accounts, log in, and personalize their experience by creating and managing boards.
+-Image Discovery: Explore a vast collection of images based on categories, user preferences, or search for specific content.
 
-Image Discovery: Explore a vast collection of images based on categories, user preferences, or search for specific content.
+-Board Creation and Management: Users can create boards to organize and save their favorite images. Boards can be 
+customized with titles and descriptions.
 
-Board Creation and Management: Users can create boards to organize and save their favorite images. Boards can be customized with titles and descriptions.
+-Image Upload: Allow users to upload their images to share with the community and add them to their boards.
 
-Image Upload: Allow users to upload their images to share with the community and add them to their boards.
+## Installation
 
-Getting Started
-Prerequisites
-...
+### Clone the repository:
 
-Installation
-Clone the repository:
-
-bash
-Copy code
+```bash
 git clone https://github.com/your-username/kintrest-web-app.git
-Navigate to the project directory:
+```
+### Navigate to the project directory:
 
-bash
-Copy code
-cd kintrest-web-app
-Install dependencies:
+```bash
+cd kintrest
+```
+### Install dependencies:
 
-bash
-Copy code
+```bash
 npm install
-Configure environment variables:
+```
+### Configure environment variables:
 
-bash
-Copy code
+```bash
 cp .env.example .env
-Edit the .env file with your configuration.
+```
+### Run the application:
 
-Run the application:
-
-bash
-Copy code
-npm start
+```bash
+npx nodemon
+```
 The application should be accessible at http://localhost:3000.
+![Screenshot 2024-01-27 122251](https://github.com/Aashish-002/kintrest/assets/82630578/a0f2886d-c3cb-4059-a57c-86cb5ba2d1e0)
+![Screenshot 2024-01-27 122415](https://github.com/Aashish-002/kintrest/assets/82630578/b8092430-6a75-4af8-b019-67946cfbfd02)
+![Screenshot 2024-01-27 122532](https://github.com/Aashish-002/kintrest/assets/82630578/eada233d-ad6e-4c19-90e1-00ab87788ee7)
 
-Contributing
-We welcome contributions! If you want to contribute to this project, please follow our Contribution Guidelines.
+## Contributing
 
-Contact
-For any inquiries or support, please contact paashish.work@gmail.com.
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-Happy pinning! 📌✨
-
-
-
-
+Please make sure to update tests as appropriate.
 
