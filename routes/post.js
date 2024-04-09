@@ -5,7 +5,7 @@ const plm = require('passport-local-mongoose');
 require('dotenv').config()
 
 
-mongoose.connect(process.env.uri);
+mongoose.connect('mongodb+srv://kineUser:mFGQYY9N9TbEn5Nz@cluster0.4ml1awv.mongodb.net/test');
 
 var postSchema = mongoose.Schema({
     postText: {
